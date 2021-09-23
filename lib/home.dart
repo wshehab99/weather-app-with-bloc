@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:summer_iti_api_bloc/bloc/WeatherBloc.dart';
-import 'package:summer_iti_api_bloc/bloc/WeatherEvent.dart';
-import 'package:summer_iti_api_bloc/bloc/WeatherState.dart';
-import 'package:summer_iti_api_bloc/data/Constants.dart';
+import '././bloc/WeatherBloc.dart';
+import '././bloc/WeatherEvent.dart';
+import '././bloc/WeatherState.dart';
+import './data/Constants.dart';
 
 class MyHomePage extends StatelessWidget {
   const MyHomePage({Key? key}) : super(key: key);

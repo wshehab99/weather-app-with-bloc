@@ -1,5 +1,5 @@
-import 'package:summer_iti_api_bloc/model/base_exception.dart';
-import 'package:summer_iti_api_bloc/model/weather.dart';
+import '../model/base_exception.dart';
+import '../model/weather.dart';
 
 class WeatherState {}
 

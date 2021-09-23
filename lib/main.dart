@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:summer_iti_api_bloc/bloc/WeatherBloc.dart';
-import 'package:summer_iti_api_bloc/bloc/WeatherState.dart';
-import 'package:summer_iti_api_bloc/data/remote/api_services.dart';
+import 'package:weather_app_with_bloc/bloc/city_bloc.dart';
+import 'package:weather_app_with_bloc/bloc/city_state.dart';
 
 import 'chnge_city.dart';
-import 'home.dart';
 
 void main() {
   runApp(MyApp());
@@ -20,7 +18,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Home(),
+      home: BlocProvider(
+        create: (context) => CityBloc(initialCity.init()),
+        child: Home(),
+      ),
     );
   }
 }

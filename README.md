@@ -1,4 +1,4 @@
-# summer_iti_api_bloc
+# weather_app_with_bloc
 
 A new Flutter project.
 

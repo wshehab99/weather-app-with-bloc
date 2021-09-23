@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.summer_iti_api_bloc">
+    package="com.example.weather_app_with_bloc">
    <application
-        android:label="summer_iti_api_bloc"
+        android:label="weather_app_with_bloc"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"
